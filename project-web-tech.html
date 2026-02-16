@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebTech | Projeto</title>
+
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/translations.js"></script>
+<script defer src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="logo">Giuliano.dev</div>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="about.html" data-i18n="nav_about">Sobre</a></li>
+      <li><a href="projects.html" data-i18n="nav_projects">Projetos</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+
+    <div class="controls">
+      <button onclick="toggleTheme()">🌙</button>
+      <button onclick="setLanguage('pt')">PT</button>
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
+  </nav>
+</header>
+
+<section class="project-hero">
+  <div class="container hero-grid">
+
+    <div class="hero-text fade-in">
+      <h1 data-i18n="webtech_title">
+        Aplicativo para Mercados – WebTech
+      </h1>
+
+      <p class="subtitle" data-i18n="webtech_desc">
+        Desenvolvimento do front-end completo de um aplicativo para visualização de mercados da franquia próximos ao usuário.
+      </p>
+
+      <div class="tech-tags">
+        <span>Angular</span>
+        <span>HTML</span>
+        <span>Flutter</span>
+        <span>Figma</span>
+        <span>Google Maps API</span>
+      </div>
+    </div>
+
+    <div class="hero-image fade-in">
+      <img src="assets/web-tech.png" alt="Web Tech">
+    </div>
+
+
+  </div>
+</section>
+
+<section class="project-details">
+  <div class="container">
+
+    <div class="details-grid">
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="webtech_arch">Arquitetura</h3>
+        <p>
+          O projeto foi desenvolvido utilizando Angular para a aplicação web
+          e Flutter para a versão mobile, garantindo uma experiência fluida
+          e multiplataforma.
+        </p>
+      </div>
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="webtech_func">Funcionalidades</h3>
+        <ul>
+          <li>Localização de mercados próximos via mapa</li>
+          <li>Geolocalização do usuário</li>
+          <li>Visualização das franquias em tempo real</li>
+          <li>Interface responsiva</li>
+          <li>Protótipo validado via Figma</li>
+        </ul>
+      </div>
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="webtech_chal">Desafios Técnicos</h3>
+        <p>
+          Integração com APIs de mapas, otimização de performance no carregamento
+          de marcadores e criação de uma experiência de navegação intuitiva
+          para dispositivos móveis.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Giuliano Timpanari • Full Stack & IoT Developer</p>
+</footer>
+
+</body>
+</html>

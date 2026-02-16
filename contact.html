@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato | Giuliano.dev</title>
+
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/translations.js"></script>
+<script defer src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="logo">Giuliano.dev</div>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="about.html" data-i18n="nav_about">Sobre</a></li>
+      <li><a href="projects.html" data-i18n="nav_projects">Projetos</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+
+    <div class="controls">
+      <button onclick="toggleTheme()">🌙</button>
+      <button onclick="setLanguage('pt')">PT</button>
+      <button onclick="setLanguage('en')">EN</button>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </nav>
+</header>
+
+<section class="contact-hero">
+  <div class="container fade-in">
+
+    <h1 data-i18n="contact_title">Vamos Conversar</h1>
+
+    <p class="contact-subtitle" data-i18n="contact_desc">
+      Estou disponível para novos projetos, oportunidades e desafios tecnológicos.
+    </p>
+
+    <div class="contact-grid">
+
+      <div class="glass-card contact-card">
+        <h3>Email</h3>
+        <p>giuliano.timpanari25@gmail.com</p>
+        <a href="mailto:giuliano.timpanari25@gmail.com" class="btn">Enviar Email</a>
+      </div>
+
+      <div class="glass-card contact-card">
+        <h3>Telefone</h3>
+        <p>(15) 99163-5367</p>
+        <a href="tel:+5515991635367" class="btn">Ligar</a>
+      </div>
+
+      <div class="glass-card contact-card">
+        <h3>GitHub</h3>
+        <p>github.com/Giuzin</p>
+        <a href="https://github.com/Giuzin" target="_blank" class="btn">Ver Perfil</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Giuliano Timpanari • Full Stack & IoT Developer</p>
+</footer>
+
+</body>
+</html>

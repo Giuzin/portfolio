@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre | Giuliano.dev</title>
+
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/translations.js"></script>
+<script defer src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="logo">Giuliano.dev</div>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="about.html" data-i18n="nav_about">Sobre</a></li>
+      <li><a href="projects.html" data-i18n="nav_projects">Projetos</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+
+    <div class="controls">
+      <button onclick="toggleTheme()">🌙</button>
+      <button onclick="setLanguage('pt')">PT</button>
+      <button onclick="setLanguage('en')">EN</button>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </nav>
+</header>
+
+<section class="about-hero">
+  <div class="container fade-in">
+
+    <div class="profile-wrapper">
+      <div class="profile-image">
+        <img src="assets/profile.jpg" alt="Giuliano Timpanari">
+      </div>
+    </div>
+
+    <h1>Giuliano Timpanari</h1>
+
+    <p class="role-title">Full Stack & IoT Developer</p>
+
+    <p class="about-subtitle">
+      Desenvolvedor Full Stack com 4 anos de experiência criando soluções escaláveis para Web, Mobile e Sistemas Embarcados, com forte atuação em arquitetura de software, IoT e aplicações de alta performance.
+    </p>
+
+  </div>
+</section>
+
+<section class="about-content">
+  <div class="container">
+
+    <div class="about-grid">
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="about_education">Formação</h3>
+        <ul>
+          <li>Análise e Desenvolvimento de Sistemas - Facens (Concluído)</li>
+          <li>Engenharia da Computação - Anhembi Morumbi (Cursando)</li>
+        </ul>
+      </div>
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="about_experience">Experiência</h3>
+        <ul>
+          <li>Rede Industrial - Desenvolvedor Pleno Full Stack C/C++</li>
+          <li>MW Automação - Estágio - ESP32 e Raspberry Pi</li>
+          <li>Web Tech - Desenvolvimento Web e Mobile</li>
+          <li>Freelancer - Projetos Full Stack</li>
+        </ul>
+      </div>
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="about_skills">Principais Competências</h3>
+        <p>
+          React • Angular • Node • NodeJS • Flutter • C/C++ • ESP32 • Python
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Giuliano Timpanari • Full Stack & IoT Developer</p>
+</footer>
+
+</body>
+</html>

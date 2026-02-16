@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão de Alerta | Projeto</title>
+
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/translations.js"></script>
+<script defer src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="logo">Giuliano.dev</div>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="about.html" data-i18n="nav_about">Sobre</a></li>
+      <li><a href="projects.html" data-i18n="nav_projects">Projetos</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+
+    <div class="controls">
+      <button onclick="toggleTheme()">🌙</button>
+      <button onclick="setLanguage('pt')">PT</button>
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
+  </nav>
+</header>
+
+<section class="project-hero">
+  <div class="container hero-grid">
+
+    <div class="hero-text fade-in">
+      <h1 data-i18n="alert_title">
+        Sistema de Botão de Alerta – EPI Inteligente
+      </h1>
+
+      <p class="subtitle" data-i18n="alert_desc">
+        Dispositivo IoT utilizado como EPI, capaz de enviar alertas em tempo real
+        para aplicativo mobile e painel web central ao ser acionado.
+      </p>
+
+      <div class="tech-tags">
+        <span>ESP32</span>
+        <span>C++</span>
+        <span>Flutter</span>
+        <span>Web Dashboard</span>
+        <span>API REST</span>
+        <span>Notificação em Tempo Real</span>
+      </div>
+    </div>
+
+    <div class="hero-image fade-in">
+      <img src="assets/botao-alerta.png" alt="Botão de Alerta">
+    </div>
+
+
+  </div>
+</section>
+
+<section class="project-details">
+  <div class="container">
+
+    <div class="details-grid">
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="alert_arch">Arquitetura</h3>
+        <p>
+          Dispositivo embarcado utilizando microcontrolador para envio de dados
+          via rede para um backend central, responsável por notificar o aplicativo
+          mobile e atualizar o painel web em tempo real.
+        </p>
+      </div>
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="alert_func">Funcionalidades</h3>
+        <ul>
+          <li>Botão físico de acionamento emergencial</li>
+          <li>Identificação do colaborador</li>
+          <li>Envio de alerta instantâneo</li>
+          <li>Notificação no aplicativo mobile</li>
+          <li>Atualização em painel web central</li>
+        </ul>
+      </div>
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="alert_chal">Desafios Técnicos</h3>
+        <p>
+          Garantir baixa latência na comunicação, confiabilidade no envio do alerta,
+          gerenciamento de múltiplos dispositivos e segurança na transmissão de dados.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Giuliano Timpanari • Full Stack & IoT Developer</p>
+</footer>
+
+</body>
+</html>

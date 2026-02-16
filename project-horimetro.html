@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horímetro | Giuliano.dev</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/translations.js"></script>
+<script defer src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="logo">Giuliano.dev</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+      <li><a href="projects.html" data-i18n="nav_projects">Projetos</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contato</a></li>
+    </ul>
+    <div class="controls">
+      <button onclick="toggleTheme()">🌙</button>
+      <button onclick="setLanguage('pt')">PT</button>
+      <button onclick="setLanguage('en')">EN</button>
+    </div>
+  </nav>
+</header>
+
+<section class="project-hero">
+  <div class="container hero-grid">
+
+    <div class="hero-text fade-in">
+      <h1 data-i18n="hori_title">Sistema Inteligente de Horímetro Industrial</h1>
+
+      <p class="subtitle" data-i18n="hori_desc">
+        Monitoramento de máquinas com envio de dados via NB-IoT para relatórios de manutenção.
+      </p>
+
+      <div class="tech-tags">
+        <span>ESP8266</span>
+        <span>ESP32</span>
+        <span>NB-IoT</span>
+        <span>C++</span>
+        <span>Web Server</span>
+      </div>
+    </div>
+
+    <div class="hero-image fade-in">
+      <img src="assets/horimetro.png" alt="Horimetro">
+    </div>
+
+  </div>
+</section>
+
+<section class="project-details">
+  <div class="container">
+
+    <div class="details-grid">
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="hori_arch">Arquitetura</h3>
+        <p>
+          Firmware desenvolvido em C++ para ESP32 e ESP8266, com integração
+          NB-IoT utilizando chip 2G para envio remoto de dados.
+        </p>
+      </div>
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="hori_func">Funcionalidades</h3>
+        <ul>
+          <li>Detecção de máquina ligada/desligada</li>
+          <li>Relatórios de manutenção</li>
+          <li>Envio remoto via rede móvel</li>
+          <li>Dashboard Web</li>
+        </ul>
+      </div>
+
+      <div class="glass-card fade-in">
+        <h3 data-i18n="hori_chal">Desafios Técnicos</h3>
+        <p>
+          Estabilidade na comunicação NB-IoT, otimização de consumo energético
+          e confiabilidade na transmissão de dados industriais.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Giuliano Timpanari • Full Stack & IoT Developer</p>
+</footer>
+
+</body>
+</html>
